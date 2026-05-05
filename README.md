@@ -262,7 +262,7 @@ El schema completo está en `src/lib/schema.sql`. Puntos destacados:
 
 - La base de datos SQLite se crea en `data/lavanderia.db` al primer arranque.
 - El seed inserta clientes, proveedores, personal, órdenes, ítems e inventario de demostración automáticamente.
-- **Para resetear la DB:** detener la app, borrar el archivo y reiniciar.
+- **Para resetear la DB:** detener la app, borrar el archivo y reiniciar.jf
 
 ```bash
 rm data/lavanderia.db && pnpm dev
