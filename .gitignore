@@ -1,0 +1,26 @@
+# Node
+node_modules/
+dist/
+.next/
+
+# Database
+server/database/*.db
+server/database/*.db-shm
+server/database/*.db-wal
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
